@@ -11,12 +11,7 @@
 
 ## Build Setup
 
-#### Run tests
 
-``` bash
-npm run test
-
-```
 ### Dev
 
 ``` bash
@@ -43,5 +38,12 @@ npm run build
 
 # start prod server on localhost:8080
 npm run start
+
+```
+
+#### Run tests
+
+``` bash
+npm run test
 
 ```
