@@ -52,7 +52,8 @@ npm run test
 
 ## Next Steps
 
-* More options for managing events in the "week" and "custom date range view"
+* More options for managing events in the "week" and "custom date range" view
 * Hook up to a weather API to show live weather based on location of a day
 * Add lots of unit tests
-* Perhaps create a mobile frontend that can also connect to the rails backend
+* My intention was to create the UI from scratch, but perhaps it may be useful to use an existing calendar for a month view
+* Create a mobile frontend that can also connect to the rails backend (though the app is already pretty mobile friendly)
