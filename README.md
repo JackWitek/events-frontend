@@ -6,6 +6,8 @@ Can be used for managing events, planning vacations, etc
 
 Backend can be found [here](https://github.com/JackWitek/events-backend)
 
+Live demo can be found [here](https://chill-events.herokuapp.com/)
+
 ### Built using
 
 * tailwind
