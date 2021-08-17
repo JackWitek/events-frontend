@@ -40,7 +40,7 @@ export default {
 
   methods: {
     signin () {
-      this.$http.plain.post('/signin', { email: this.email, password: this.password })
+      this.$http.plain.post('/signin', { email: this.email.toLowerCase(), password: this.password })
         .then(response => this.signinSuccessful(response))
         .catch(error => this.signinFailed(error))
     },

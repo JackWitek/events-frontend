@@ -91,7 +91,7 @@ export default {
       this.$http.plain
         .post('/signup', {
           name: this.name,
-          email: this.email,
+          email: this.email.toLowerCase(),
           password: this.password,
           password_confirmation: this.password_confirmation
         })
