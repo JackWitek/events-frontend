@@ -57,16 +57,16 @@ export default {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #ababab;
+  background: #141414;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(86, 86, 86);
+  background: rgb(100, 100, 100);
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgb(34, 34, 34);
+  background: rgb(182, 182, 182);
 }
 </style>

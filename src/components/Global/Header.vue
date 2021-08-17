@@ -52,7 +52,7 @@
         <a
           href="/"
           class="uppercase display-1 font-mono pl-14 font-semibold no-underline text-grey hover:text-purple"
-          >Jack's Events Manager</a>
+          >Jack's Event Manager</a>
       </div>
       <div class="px-5">
         <h5 class=" pb-2 mr-2" v-if="signedIn()">

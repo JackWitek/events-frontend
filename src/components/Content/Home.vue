@@ -31,7 +31,7 @@
         </div>
         <div class="text-container">
           <p class="option-desc">
-            Select this to see a simple calendar week view. <br />Events can be
+            Select this option for a simple calendar week view. <br />Events can be
             added to any day
           </p>
         </div>

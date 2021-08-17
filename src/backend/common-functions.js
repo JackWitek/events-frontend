@@ -2,7 +2,7 @@ export default {
 
   getFormattedDate: function (date) {
     var dateFormat = require('dateformat')
-    return dateFormat(date, 'UTC: mmm dS, yyyy')
+    return dateFormat(date, 'mmm dS, yyyy')
   },
 
   getBetterFormattedDate: function (date) {
@@ -35,10 +35,11 @@ export default {
 
     var suf = time.substring(index2 + 1, time.length)
 
-    if (suf === 'pm' && hours !== 12) {
+    if (suf === 'pm' && parseInt(hours) !== 12) {
       hours = parseInt(hours) + 12
     }
-    if (suf === 'am' && hours === 12) {
+
+    if (suf === 'am' && parseInt(hours) === 12) {
       hours = 0
     }
 
