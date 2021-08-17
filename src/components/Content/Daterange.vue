@@ -100,8 +100,9 @@ export default {
     },
 
     getEvents (date) {
+      let offset = new Date(date).getTimezoneOffset()
       this.$http.secured
-        .get(`/api/v1/events/dates/${date}`)
+        .get(`/api/v1/events/dates/${date}/${offset}`)
         .then(response => {
           this.days.find(
             x =>
