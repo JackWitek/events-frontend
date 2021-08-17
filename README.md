@@ -1,6 +1,7 @@
 # Events Manager - Frontend
 
 A Vue.js frontend that connects to a Ruby on Rails API backend
+Can be used for managing events, planning vacations, etc
 
 Backend can be found [here](https://github.com/JackWitek/events-backend)
 
