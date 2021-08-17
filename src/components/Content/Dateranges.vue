@@ -123,8 +123,8 @@
                   Sorry, your browser does not support inline SVG.
                 </svg>
                 {{ daterange.name }} &mdash;
-                {{ getFormattedDate(daterange.startDate) }} &mdash;
-                {{ getFormattedDate(daterange.endDate) }}
+                {{ getFormattedUTCDate(daterange.startDate) }} &mdash;
+                {{ getFormattedUTCDate(daterange.endDate) }}
               </p>
             </div>
 
@@ -179,7 +179,7 @@ export default {
     }
   },
   created () {
-    this.getFormattedDate = shared.getFormattedDate
+    this.getFormattedUTCDate = shared.getFormattedUTCDate
     this.getBetterFormattedDate = shared.getBetterFormattedDate
     this.setError = shared.setError
 

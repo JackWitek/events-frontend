@@ -5,6 +5,11 @@ export default {
     return dateFormat(date, 'mmm dS, yyyy')
   },
 
+  getFormattedUTCDate: function (date) {
+    var dateFormat = require('dateformat')
+    return dateFormat(date, 'UTC: mmm dS, yyyy')
+  },
+
   getBetterFormattedDate: function (date) {
     var dateFormat = require('dateformat')
     return dateFormat(date, 'mmmm dd, yyyy')
