@@ -1,6 +1,8 @@
 # Events Manager - Frontend
 
-## A Vue.js frontend that connects to a Ruby on Rails API backend
+A Vue.js frontend that connects to a Ruby on Rails API backend
+
+Backend can be found [here](https://github.com/JackWitek/events-backend)
 
 ### Built using
 
@@ -15,10 +17,10 @@
 ### Dev
 
 ``` bash
-# Remember to update API_URL after switching location of backend
-
 # install dependencies
-npm install
+npm i
+
+# Remember to update API_URL after switching location of backend
 
 # serve with hot reload at localhost:8080
 npm run dev
@@ -28,10 +30,10 @@ npm run dev
 ### Prod
 
 ``` bash
-# Remember to update API_URL after switching location of backend
-
 # install dependencies
-npm install
+npm i
+
+# Remember to update API_URL after switching location of backend
 
 # run build scripts
 npm run build
